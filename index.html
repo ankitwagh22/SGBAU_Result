@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sgbau Amravati University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header section start -->
+    <header>
+        <nav>
+            <div class="navbar">
+                <div>
+                    <img src="https://d2xe8shibzpjog.cloudfront.net/logo/sgbau_logo.jpg" alt="">
+                </div>
+                <div id="ex">EXAMINATION SYSTEM</div>
+            </div>
+        </nav>
+        <div class="solid_blue"></div>
+        <div class="solid_red">
+            <marquee>
+                Note:- Please contact to Respective college for getting The Roll number of Summer - 2020 Result
+            </marquee>
+        </div>
+    </header>
+
+    <!-- main section start -->
+    <main>
+        <div class="student_details_box">
+            <div class="title_form">
+                <p style="color: white; font-size: 20px; padding: 18px 15px;">Search Your Result</p>
+            </div>
+            <div class="input_boxes">
+                <div class="box">
+                    <p>Session</p>
+                    <div class="session_input">
+                        <select name="session" id="s1">
+                            <option value="select">Select Session</option>
+                            <option value="Winter 2020">Winter 2020</option>
+                            <option value="Summer 2021">Summer 2021</option>
+                            <option value="Winter 2021">Winter 2021</option>
+                            <option value="Summer 2022">Summer 2022</option>
+                            <option value="Winter 2022">Winter 2022</option>
+                            <option value="Summer 2023">Summer 2023</option>
+                            <option value="Winter 2023">Winter 2023</option>
+                            <option value="Summer 2024">Summer 2024</option>
+                            <option value="Winter 2024">Winter 2024</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Course Type</p>
+                    <div class="session_input">
+                        <select name="Type" id="ct1">
+                            <option value="select">Select Course Type</option>
+                            <option value="UG">UG</option>
+                            <option value="PG">PG</option>
+                            <option value="PHD">PHD</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Course</p>
+                    <div class="session_input">
+                        <select name="Course" id="c1">
+                            <option value="selct">Select Your Course</option>
+                           <option value="BCA">Bacholors of Computer Application</option>
+                           <option value="BBA">Bacholors of Bisness Adminastration</option>
+                           <option value="BA">Bacholors of Arts</option>
+                           <option value="B.Com">Bacholors of Commerce</option>
+                           <option value="Bsc">Bacholors of Science</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Result Type</p>
+                    <div class="session_input">
+                        <select name="r_type" id="rt1">
+                            <option value="rt">Select result Type</option>
+                            <option value="regular">Regular</option>
+                            <option value="backlog">BackLog</option>
+                            <option value="Rechecking">Rechecking</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Roll No</p>
+                    <div class="session_input">
+                        <input type="text"  id="roll" placeholder="Roll no">
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Semester</p>
+                    <div class="session_input">
+                        <select name="Semester" id="sem1">
+                            <option value="select">Select Semester</option>
+                           <option value="sem1">First Semester (Sem-1)</option>
+                           <option value="sem2">Second Semester (Sem-2)</option>
+                           <option value="sem3">Third Semester (Sem-3)</option>
+                           <option value="sem4">Fourth Semester (Sem-4)</option>
+                           <option value="sem5">Fith Semester (Sem-5)</option>
+                           <option value="sem6">Sixth Semester (Sem-6)</option>
+                           <option value="sem7">Seven Semester (Sem-7)</option>
+                           <option value="sem8">Eight Semester (Sem-8)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="submit" id="btn1" onclick="display()">Search Result</button>
+                <button type="reset" id="btn2" onclick="refreshPage()">Reset</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer starts -->
+    <footer>
+            <p>
+                S.G.B.A University, Amravati <b> Smart Examination System</b> 2024 - 2025
+            </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
